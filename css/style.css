@@ -3,4 +3,17 @@
   .main-header__title {
     color: #e6c54d; }
 
+a {
+  color: #549c84;
+  text-decoration: none; }
+  a a:hover {
+    color: #549c84;
+    text-decoration: none; }
+    a a:hover a:visited {
+      color: #549c84;
+      text-decoration: none; }
+      a a:hover a:visited a:active {
+        color: #549c84;
+        text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */

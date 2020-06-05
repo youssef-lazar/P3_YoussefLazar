@@ -1,8 +1,27 @@
 @import "../utils/variables";
 
-.main-header{
+@mixin link-color($colour) {
+    color: $colour;
+    text-decoration: none;
+}
+
+.main-header {
     background-color: $color-primary;
-    &__title{
+    &__title {
         color: $color-secondary;
     }
 }
+
+a {
+    @include link-color($color-primary);
+    a:hover{
+         @include link-color($color-primary);
+        a:visited{
+             @include link-color($color-primary);
+            a:active {
+                @include link-color($color-primary);
+                }
+            }
+        }
+}
+
