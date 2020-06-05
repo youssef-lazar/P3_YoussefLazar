@@ -9,17 +9,18 @@
     background-color: $color-primary;
     &__title {
         color: $color-secondary;
+        text-align: center;
     }
 }
 
 a {
-    @include link-color($color-primary);
+    @include link-color($color-secondary);
     a:hover{
-         @include link-color($color-primary);
+         @include link-color($color-secondary);
         a:visited{
-             @include link-color($color-primary);
+             @include link-color($color-secondary);
             a:active {
-                @include link-color($color-primary);
+                @include link-color($color-secondary);
                 }
             }
         }
