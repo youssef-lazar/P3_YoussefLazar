@@ -1,6 +1,20 @@
 .main-header {
   background-color: #549c84; }
   .main-header__title {
-    color: #e6c54d; }
+    color: #e6c54d;
+    text-align: center; }
+
+a {
+  color: #e6c54d;
+  text-decoration: none; }
+  a a:hover {
+    color: #e6c54d;
+    text-decoration: none; }
+    a a:hover a:visited {
+      color: #e6c54d;
+      text-decoration: none; }
+      a a:hover a:visited a:active {
+        color: #e6c54d;
+        text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
