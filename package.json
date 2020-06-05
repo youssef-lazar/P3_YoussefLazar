@@ -1,0 +1,19 @@
+{
+  "name": "p3_yousseflazar",
+  "version": "1.0.0",
+  "description": "Projet 3 Oh My Food",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssef-lazar/P3_YoussefLazar.git"
+  },
+  "author": "Youssef Lazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youssef-lazar/P3_YoussefLazar/issues"
+  },
+  "homepage": "https://github.com/youssef-lazar/P3_YoussefLazar#readme"
+}
