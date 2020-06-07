@@ -1,6 +1,13 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .main-header {
     background-color: $color-primary;
 
@@ -21,6 +28,10 @@ a {
                 }
             }
         }
+}
+
+h1 {
+    padding: 25px;
 }
 
 .container1, .container2{
@@ -65,13 +76,12 @@ a {
 
 .footer {
     background-color: $color-primary;
-    margin: 0px;
-    padding: 5px;
+    padding: 25px;
     position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
