@@ -28,14 +28,14 @@ a {
   width: 300px;
   height: 400px;
   margin-top: 70px; }
-  .main__menu .un {
+  .main__menu.un {
     text-align: center;
     margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FCDFDB;
     width: 300px;
     height: 400px; }
-  .main__menu .deux {
+  .main__menu.deux {
     text-align: center;
     margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
