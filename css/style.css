@@ -42,6 +42,20 @@ a {
     background-color: #FFF5FE;
     width: 300px;
     height: 400px; }
+  .main__menu.trois {
+    text-align: center;
+    margin-left: 200px;
+    box-shadow: 0.5px 0.5px 8px grey;
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 400px; }
+  .main__menu.quatre {
+    text-align: center;
+    margin-left: 200px;
+    box-shadow: 0.5px 0.5px 8px grey;
+    background-color: #fdfffd;
+    width: 300px;
+    height: 400px; }
   .main__menu .menu1 {
     color: #660000;
     font-size: 20px;
@@ -50,5 +64,29 @@ a {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
+  .main__menu .menu3 {
+    color: #660000;
+    font-size: 20px;
+    margin-top: 130px; }
+  .main__menu .menu4 {
+    color: #660000;
+    font-size: 20px;
+    margin-top: 130px; }
+
+.footer {
+  background-color: #549c84;
+  margin: 0px;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: yellow;
+  font-size: 25px; }
 
 /*# sourceMappingURL=style.css.map */
