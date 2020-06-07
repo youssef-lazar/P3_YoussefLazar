@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 .main-header {
   background-color: #549c84; }
   .main-header__title {
@@ -16,6 +20,9 @@ a {
       a a:hover a:visited a:active {
         color: #e6c54d;
         text-decoration: none; }
+
+h1 {
+  padding: 25px; }
 
 .container1, .container2 {
   display: flex;
@@ -75,13 +82,12 @@ a {
 
 .footer {
   background-color: #549c84;
-  margin: 0px;
-  padding: 5px;
+  padding: 25px;
   position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .row {
   display: flex;
