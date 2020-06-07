@@ -3,6 +3,7 @@
 
 .main-header {
     background-color: $color-primary;
+
     &__title {
         color: $color-secondary;
         text-align: center;
@@ -37,6 +38,15 @@ a {
         &.deux {
             @include menu-box($color-m2)
         }
+        
+        &.trois {
+            @include menu-box($color-m3)
+        }
+
+        &.quatre {
+            @include menu-box($color-m4)
+        }
+
 
         .menu1 {
             @include menu-txt($txt-m1)
@@ -44,5 +54,30 @@ a {
         .menu2 {
             @include menu-txt($txt-m2)
         }
+        .menu3 {
+            @include menu-txt($txt-m3)
+        }
+        .menu4 {
+            @include menu-txt($txt-m4)
+        }
+
 }
 
+.footer {
+    background-color: $color-primary;
+    margin: 0px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    font-size: 25px;
+}
