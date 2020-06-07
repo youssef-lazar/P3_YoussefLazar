@@ -30,12 +30,19 @@ a {
     width: 300px;
     height: 400px;
     margin-top: 70px;
-        .menu1{
+        .un{
             @include menu-box($color-m1)
         }
 
-        .menu2 {
+        .deux {
             @include menu-box($color-m2)
+        }
+
+        .menu1 {
+            @include menu-txt($txt-m1)
+        }
+        .menu2 {
+            @include menu-txt($txt-m2)
         }
 }
 
