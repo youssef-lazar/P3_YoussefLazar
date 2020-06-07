@@ -28,12 +28,12 @@ a {
   width: 300px;
   height: 400px;
   margin-top: 70px; }
-  .main__menu.menu1 {
+  .main__menu .menu1 {
     text-align: center;
     margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FCDFDB; }
-  .main__menu.menu2 {
+  .main__menu .menu2 {
     text-align: center;
     margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
