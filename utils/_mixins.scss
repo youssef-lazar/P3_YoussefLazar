@@ -1,0 +1,12 @@
+@mixin link-color($colour) {
+    color: $colour;
+    text-decoration: none;
+}
+
+@mixin main-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color-back;
+    width: 100%;
+}
