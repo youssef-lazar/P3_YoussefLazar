@@ -1,9 +1,5 @@
 @import "../utils/variables";
-
-@mixin link-color($colour) {
-    color: $colour;
-    text-decoration: none;
-}
+@import "../utils/mixins";
 
 .main-header {
     background-color: $color-primary;
@@ -23,6 +19,29 @@ a {
                 @include link-color($color-secondary);
                 }
             }
+        }
+}
+
+.container1, .container2{
+    @include main-box;
+}
+
+.main__menu{
+    width: 300px;
+    height: 400px;
+    margin-top: 70px;
+        &.menu1{
+            text-align: center;
+            margin-left: 200px;
+            box-shadow: 0.5px 0.5px 8px grey;
+            background-color: $color-m1;
+        }
+
+        &.menu2 {
+            text-align: center;
+            margin-left: 200px;
+            box-shadow: 0.5px 0.5px 8px grey;
+            background-color: $color-m2;
         }
 }
 

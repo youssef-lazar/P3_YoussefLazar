@@ -17,4 +17,26 @@ a {
         color: #e6c54d;
         text-decoration: none; }
 
+.container1, .container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  width: 100%; }
+
+.main__menu {
+  width: 300px;
+  height: 400px;
+  margin-top: 70px; }
+  .main__menu.menu1 {
+    text-align: center;
+    margin-left: 200px;
+    box-shadow: 0.5px 0.5px 8px grey;
+    background-color: #FCDFDB; }
+  .main__menu.menu2 {
+    text-align: center;
+    margin-left: 200px;
+    box-shadow: 0.5px 0.5px 8px grey;
+    background-color: #FFF5FE; }
+
 /*# sourceMappingURL=style.css.map */
