@@ -28,19 +28,27 @@ a {
   width: 300px;
   height: 400px;
   margin-top: 70px; }
-  .main__menu .menu1 {
+  .main__menu .un {
     text-align: center;
     margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FCDFDB;
     width: 300px;
     height: 400px; }
-  .main__menu .menu2 {
+  .main__menu .deux {
     text-align: center;
     margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FFF5FE;
     width: 300px;
     height: 400px; }
+  .main__menu .menu1 {
+    color: #660000;
+    font-size: 20px;
+    margin-top: 130px; }
+  .main__menu .menu2 {
+    color: #660000;
+    font-size: 20px;
+    margin-top: 130px; }
 
 /*# sourceMappingURL=style.css.map */
