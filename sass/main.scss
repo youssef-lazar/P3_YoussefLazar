@@ -31,17 +31,11 @@ a {
     height: 400px;
     margin-top: 70px;
         .menu1{
-            text-align: center;
-            margin-left: 200px;
-            box-shadow: 0.5px 0.5px 8px grey;
-            background-color: $color-m1;
+            @include menu-box($color-m1)
         }
 
         .menu2 {
-            text-align: center;
-            margin-left: 200px;
-            box-shadow: 0.5px 0.5px 8px grey;
-            background-color: $color-m2;
+            @include menu-box($color-m2)
         }
 }
 
