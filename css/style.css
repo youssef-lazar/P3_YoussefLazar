@@ -31,34 +31,33 @@ h1 {
   background-color: #fff;
   width: 100%; }
 
+.container2 {
+  padding-bottom: 150px; }
+
 .main__menu {
   width: 300px;
   height: 400px;
   margin-top: 70px; }
   .main__menu.un {
     text-align: center;
-    margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FCDFDB;
     width: 300px;
     height: 400px; }
   .main__menu.deux {
     text-align: center;
-    margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FFF5FE;
     width: 300px;
     height: 400px; }
   .main__menu.trois {
     text-align: center;
-    margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #F9F9F9;
     width: 300px;
     height: 400px; }
   .main__menu.quatre {
     text-align: center;
-    margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #fdfffd;
     width: 300px;
@@ -67,18 +66,30 @@ h1 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
+    .main__menu .menu1 ::hover {
+      transform: scale(1.4);
+      transition: 1.2s; }
   .main__menu .menu2 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
+    .main__menu .menu2 ::hover {
+      transform: scale(1.4);
+      transition: 1.2s; }
   .main__menu .menu3 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
+    .main__menu .menu3 ::hover {
+      transform: scale(1.4);
+      transition: 1.2s; }
   .main__menu .menu4 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
+    .main__menu .menu4 ::hover {
+      transform: scale(1.4);
+      transition: 1.2s; }
 
 .footer {
   background-color: #549c84;
@@ -92,7 +103,7 @@ h1 {
 .row {
   display: flex;
   justify-content: space-between;
-  color: yellow;
-  font-size: 25px; }
+  color: #e6c54d;
+  font-size: 19px; }
 
 /*# sourceMappingURL=style.css.map */
