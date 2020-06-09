@@ -13,7 +13,6 @@
 
 @mixin menu-box($color) {
     text-align: center;
-    margin-left: 200px;
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: $color;
     width: 300px;
@@ -26,3 +25,9 @@
     font-size: 20px;
     margin-top: 130px;
 }
+
+@mixin zoom{
+    transform: scale(1.4);
+    transition: 1.2s;
+}
+

@@ -38,6 +38,11 @@ h1 {
     @include main-box;
 }
 
+.container2{
+    padding-bottom: 150px;
+}
+
+
 .main__menu{
     width: 300px;
     height: 400px;
@@ -60,16 +65,28 @@ h1 {
 
 
         .menu1 {
-            @include menu-txt($txt-m1)
+            @include menu-txt($txt-m1);
+            ::hover{
+                @include zoom
+            }
         }
         .menu2 {
-            @include menu-txt($txt-m2)
+            @include menu-txt($txt-m2);
+            ::hover {
+                @include zoom
+            }
         }
         .menu3 {
-            @include menu-txt($txt-m3)
+            @include menu-txt($txt-m3);
+            ::hover {
+                @include zoom
+            }
         }
         .menu4 {
-            @include menu-txt($txt-m4)
+            @include menu-txt($txt-m4);
+            ::hover {
+                @include zoom
+            }
         }
 
 }
@@ -88,6 +105,6 @@ h1 {
 .row {
     display: flex;
     justify-content: space-between;
-    color: yellow;
-    font-size: 25px;
+    color: $color-secondary;
+    font-size: 19px;
 }
