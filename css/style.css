@@ -66,28 +66,28 @@ h1 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu1.menu1:hover {
+    .main__menu .menu1:hover {
       transform: scale(1.4);
       transition: 1.2s; }
   .main__menu .menu2 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu2.menu2:hover {
+    .main__menu .menu2:hover {
       transform: scale(1.4);
       transition: 1.2s; }
   .main__menu .menu3 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu3.menu3:hover {
+    .main__menu .menu3:hover {
       transform: scale(1.4);
       transition: 1.2s; }
   .main__menu .menu4 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu4.menu4:hover {
+    .main__menu .menu4:hover {
       transform: scale(1.4);
       transition: 1.2s; }
 
