@@ -66,28 +66,28 @@ h1 {
 
         .menu1 {
             @include menu-txt($txt-m1);
-            &.menu1:hover{
+            &:hover{
                  @include zoom;
             }
 
         }
         .menu2 {
             @include menu-txt($txt-m2);
-            &.menu2:hover{
+            &:hover{
                 @include zoom;
             }
 
         }
         .menu3 {
             @include menu-txt($txt-m3);
-            &.menu3:hover{
+            &:hover{
                 @include zoom;
             }
 
         }
         .menu4 {
             @include menu-txt($txt-m4);
-            &.menu4:hover{
+            &:hover{
                 @include zoom;
             }
 
