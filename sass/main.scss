@@ -66,30 +66,35 @@ h1 {
 
         .menu1 {
             @include menu-txt($txt-m1);
-            ::hover{
-                @include zoom
+            .menu1:hover{
+                 @include zoom;
             }
+
         }
         .menu2 {
             @include menu-txt($txt-m2);
-            ::hover {
-                @include zoom
+            .menu2:hover{
+                @include zoom;
             }
+
         }
         .menu3 {
             @include menu-txt($txt-m3);
-            ::hover {
-                @include zoom
+            .menu3:hover{
+                @include zoom;
             }
+
         }
         .menu4 {
             @include menu-txt($txt-m4);
-            ::hover {
-                @include zoom
+            .menu4:hover{
+                @include zoom;
             }
+
         }
 
 }
+
 
 .footer {
     background-color: $color-primary;
