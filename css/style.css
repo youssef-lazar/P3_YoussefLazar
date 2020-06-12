@@ -29,65 +29,54 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
   background-color: #fff;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .container2 {
   padding-bottom: 150px; }
 
-.main__menu {
+.main-menu {
   width: 300px;
   height: 400px;
   margin-top: 70px; }
-  .main__menu.un {
-    text-align: center;
+  .main-menu.un {
     box-shadow: 0.5px 0.5px 8px grey;
-    background-color: #FCDFDB;
-    width: 300px;
-    height: 400px; }
-  .main__menu.deux {
-    text-align: center;
+    background-color: #FCDFDB; }
+  .main-menu.deux {
     box-shadow: 0.5px 0.5px 8px grey;
-    background-color: #FFF5FE;
-    width: 300px;
-    height: 400px; }
-  .main__menu.trois {
-    text-align: center;
+    background-color: #FFF5FE; }
+  .main-menu.trois {
     box-shadow: 0.5px 0.5px 8px grey;
-    background-color: #F9F9F9;
-    width: 300px;
-    height: 400px; }
-  .main__menu.quatre {
-    text-align: center;
+    background-color: #F9F9F9; }
+  .main-menu.quatre {
     box-shadow: 0.5px 0.5px 8px grey;
-    background-color: #fdfffd;
-    width: 300px;
-    height: 400px; }
-  .main__menu .menu1 {
+    background-color: #fdfffd; }
+  .main-menu .menu1 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu1:hover {
+    .main-menu .menu1:hover {
       transform: scale(1.4);
       transition: 1.2s; }
-  .main__menu .menu2 {
+  .main-menu .menu2 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu2:hover {
+    .main-menu .menu2:hover {
       transform: scale(1.4);
       transition: 1.2s; }
-  .main__menu .menu3 {
+  .main-menu .menu3 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu3:hover {
+    .main-menu .menu3:hover {
       transform: scale(1.4);
       transition: 1.2s; }
-  .main__menu .menu4 {
+  .main-menu .menu4 {
     color: #660000;
     font-size: 20px;
     margin-top: 130px; }
-    .main__menu .menu4:hover {
+    .main-menu .menu4:hover {
       transform: scale(1.4);
       transition: 1.2s; }
 
