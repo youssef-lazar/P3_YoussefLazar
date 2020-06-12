@@ -39,16 +39,16 @@ h1 {
   width: 300px;
   height: 400px;
   margin-top: 70px; }
-  .main-menu.un {
+  .main-menu--un {
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FCDFDB; }
-  .main-menu.deux {
+  .main-menu--deux {
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #FFF5FE; }
-  .main-menu.trois {
+  .main-menu--trois {
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #F9F9F9; }
-  .main-menu.quatre {
+  .main-menu--quatre {
     box-shadow: 0.5px 0.5px 8px grey;
     background-color: #fdfffd; }
   .main-menu .menu1 {

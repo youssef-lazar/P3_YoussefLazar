@@ -47,19 +47,19 @@ h1 {
     width: 300px;
     height: 400px;
     margin-top: 70px;
-        &.un{
+        &--un{
             @include menu-box($color-m1)
         }
 
-        &.deux {
+        &--deux {
             @include menu-box($color-m2)
         }
         
-        &.trois {
+        &--trois {
             @include menu-box($color-m3)
         }
 
-        &.quatre {
+        &--quatre {
             @include menu-box($color-m4)
         }
 
