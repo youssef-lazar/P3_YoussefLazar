@@ -5,11 +5,12 @@
 
 @mixin main-box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: $color-back;
     width: 100%;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 @mixin menu-box($color) {
