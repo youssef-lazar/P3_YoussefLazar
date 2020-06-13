@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+main {
+  padding-bottom: 150px; }
+
 .main-header {
   background-color: #549c84; }
   .main-header__title {
@@ -24,16 +27,13 @@ a {
 h1 {
   padding: 25px; }
 
-.container1, .container2 {
+.container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #fff;
   width: 100%;
   text-align: center; }
-
-.container2 {
-  padding-bottom: 150px; }
 
 .main-menu {
   width: 300px;

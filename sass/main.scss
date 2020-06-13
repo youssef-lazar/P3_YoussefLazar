@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+main {
+    padding-bottom: 150px;
+}
 
 
 .main-header {
@@ -34,12 +37,8 @@ h1 {
     padding: 25px;
 }
 
-.container1, .container2{
+.container {
     @include main-box;
-}
-
-.container2{
-    padding-bottom: 150px;
 }
 
 
