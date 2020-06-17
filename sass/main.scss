@@ -1,6 +1,57 @@
 @import "utils/variables";
 @import "utils/mixins";
 
+@font-face {
+    font-family: "black_jackregular";
+    src: url("base/fonts/blackjack-webfont.eot");
+    src: url("base/fonts/blackjack-webfont.eot?#iefix") format("embedded-opentype"),
+    url("base/fonts/blackjack-webfont.woff2") format("woff2"),
+    url("base/fonts/blackjack-webfont.woff") format("woff"),
+    url("base/fonts/blackjack-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "comic_relief";
+    src: url("base/fonts/ComicRelief-webfont.eot");
+    src: url("base/fonts/ComicRelief-webfont.eot?#iefix") format("embedded-opentype"),
+    url("base/fonts/ComicRelief-webfont.woff2") format("woff2"),
+    url("base/fonts/ComicRelief-webfont.woff") format("woff"),
+    url("base/fonts/ComicRelief-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "alegrya";
+    src: url("base/fonts/alegreya-regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "librebaskerville";
+    src: url("base/fonts/librebaskerville.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "alexbrush";
+    src: url("base/fonts/alexbrush.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "kaushanscript";
+    src: url("base/fonts/kaushanscript.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -85,7 +136,8 @@ h3 {
                 @include zoom;
             }
                 h2 {
-                    @include gradiant(#d8852e, #905bfd)
+                    @include gradiant(#d8852e, #905bfd);
+                    font-family: alegrya;
                 }
 
         }
