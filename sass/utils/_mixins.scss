@@ -30,3 +30,13 @@
     transition: 1.2s;
 }
 
+@mixin gradiant($color1, $color2) {
+    background: linear-gradient(90deg, $color1, $color2);
+    background-clip: border-box;
+    background-clip: text;
+    color: transparent;
+    font-size: 15px;
+}
+
+
+
