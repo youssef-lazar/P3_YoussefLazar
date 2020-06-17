@@ -30,7 +30,7 @@ a {
 h1 {
   padding: 25px; }
 
-h2 {
+h3 {
   margin-top: 15px; }
 
 .container {
@@ -72,6 +72,12 @@ h2 {
     .main-menu .menu2:hover {
       transform: scale(1.4);
       transition: 1.2s; }
+    .main-menu .menu2 h2 {
+      background: linear-gradient(90deg, #d8852e, #905bfd);
+      background-clip: border-box;
+      background-clip: text;
+      color: transparent;
+      font-size: 15px; }
   .main-menu .menu3 {
     color: #660000;
     font-size: 20px;
@@ -79,6 +85,12 @@ h2 {
     .main-menu .menu3:hover {
       transform: scale(1.4);
       transition: 1.2s; }
+    .main-menu .menu3 h2 {
+      background: linear-gradient(90deg, #0431df, #69b4fa);
+      background-clip: border-box;
+      background-clip: text;
+      color: transparent;
+      font-size: 15px; }
   .main-menu .menu4 {
     color: #660000;
     font-size: 20px;
@@ -86,6 +98,12 @@ h2 {
     .main-menu .menu4:hover {
       transform: scale(1.4);
       transition: 1.2s; }
+    .main-menu .menu4 h2 {
+      background: linear-gradient(90deg, #3e923a, #beff7f);
+      background-clip: border-box;
+      background-clip: text;
+      color: transparent;
+      font-size: 15px; }
 
 .soon {
   border-radius: 5px 5px 5px;

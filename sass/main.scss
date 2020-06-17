@@ -40,7 +40,8 @@ h1 {
     padding: 25px;
 }
 
-h2 {
+
+h3 {
     margin-top: 15px;
 }
 
@@ -83,6 +84,9 @@ h2 {
             &:hover{
                 @include zoom;
             }
+                h2 {
+                    @include gradiant(#d8852e, #905bfd)
+                }
 
         }
         .menu3 {
@@ -90,6 +94,9 @@ h2 {
             &:hover{
                 @include zoom;
             }
+                h2 {
+                    @include gradiant(#0431df, #69b4fa)
+                }
 
         }
         .menu4 {
@@ -97,6 +104,9 @@ h2 {
             &:hover{
                 @include zoom;
             }
+                h2 {
+                    @include gradiant(#3e923a, #beff7f )
+                }
 
         }
 
