@@ -2,12 +2,8 @@
 @import "utils/mixins";
 
 @font-face {
-    font-family: "black_jackregular";
-    src: url("base/fonts/blackjack-webfont.eot");
-    src: url("base/fonts/blackjack-webfont.eot?#iefix") format("embedded-opentype"),
-    url("base/fonts/blackjack-webfont.woff2") format("woff2"),
-    url("base/fonts/blackjack-webfont.woff") format("woff"),
-    url("base/fonts/blackjack-webfont.ttf") format("truetype");
+    font-family: "blackjack";
+    src: url("base/fonts/blackjack.otf");
     font-weight: normal;
     font-style: normal;
 }
@@ -30,16 +26,10 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "librebaskerville";
-    src: url("base/fonts/librebaskerville.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
-    font-family: "alexbrush";
-    src: url("base/fonts/alexbrush.ttf");
+    font-family: "Calligraffiti";
+    src: url("base/fonts/calligraffiti.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -128,6 +118,9 @@ h3 {
             &:hover{
                  @include zoom;
             }
+                h2 {
+                    font-family: blackjack;
+                }
 
         }
         .menu2 {
@@ -147,7 +140,9 @@ h3 {
                 @include zoom;
             }
                 h2 {
-                    @include gradiant(#0431df, #69b4fa)
+                    @include gradiant(#0431df, #69b4fa);
+                    font-family: Calligraffiti;
+                    
                 }
 
         }
@@ -157,7 +152,8 @@ h3 {
                 @include zoom;
             }
                 h2 {
-                    @include gradiant(#3e923a, #c4ff8a)
+                    @include gradiant(#3e923a, #c4ff8a);
+                    font-family: kaushanscript;
                 }
 
         }
