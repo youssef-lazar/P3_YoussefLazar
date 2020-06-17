@@ -66,7 +66,7 @@ h3 {
       transform: scale(1.4);
       transition: 1.2s; }
   .main-menu .menu2 {
-    color: #660000;
+    color: #c77412;
     font-size: 20px;
     margin-top: 130px; }
     .main-menu .menu2:hover {
@@ -77,9 +77,10 @@ h3 {
       background-clip: border-box;
       background-clip: text;
       color: transparent;
-      font-size: 15px; }
+      font-size: 28px;
+      padding-top: 20px; }
   .main-menu .menu3 {
-    color: #660000;
+    color: #339bfb;
     font-size: 20px;
     margin-top: 130px; }
     .main-menu .menu3:hover {
@@ -90,20 +91,22 @@ h3 {
       background-clip: border-box;
       background-clip: text;
       color: transparent;
-      font-size: 15px; }
+      font-size: 28px;
+      padding-top: 20px; }
   .main-menu .menu4 {
-    color: #660000;
+    color: #72bf56;
     font-size: 20px;
     margin-top: 130px; }
     .main-menu .menu4:hover {
       transform: scale(1.4);
       transition: 1.2s; }
     .main-menu .menu4 h2 {
-      background: linear-gradient(90deg, #3e923a, #beff7f);
+      background: linear-gradient(90deg, #3e923a, #c4ff8a);
       background-clip: border-box;
       background-clip: text;
       color: transparent;
-      font-size: 15px; }
+      font-size: 28px;
+      padding-top: 20px; }
 
 .soon {
   border-radius: 5px 5px 5px;
