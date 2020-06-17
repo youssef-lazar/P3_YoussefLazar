@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Blackjack";
-  src: url("base/fonts/Blackjack.otf");
+  src: url("/sass/base/fonts/Blackjack.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
@@ -11,17 +11,17 @@
   font-style: normal; }
 @font-face {
   font-family: "Alegrya";
-  src: url("base/fonts/Alegreya-regular.otf");
+  src: url("/sass/base/fonts/AlegreyaSC-Regular.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Calligraffiti";
-  src: url("base/fonts/Calligraffiti.ttf");
+  src: url("/sass/base/fonts/Calligraffiti.ttf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Kaushanscript";
-  src: url("base/fonts/Kaushanscript.otf");
+  src: url("/sass/base/fonts/Kaushanscript.otf");
   font-weight: normal;
   font-style: normal; }
 * {
