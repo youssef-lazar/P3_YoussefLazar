@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "blackjack";
-  src: url("base/fonts/blackjack.otf");
+  font-family: "Blackjack";
+  src: url("base/fonts/Blackjack.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
@@ -10,18 +10,18 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: "alegrya";
-  src: url("base/fonts/alegreya-regular.otf");
+  font-family: "Alegrya";
+  src: url("base/fonts/Alegreya-regular.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Calligraffiti";
-  src: url("base/fonts/calligraffiti.ttf");
+  src: url("base/fonts/Calligraffiti.ttf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: "kaushanscript";
-  src: url("base/fonts/kaushanscript.otf");
+  font-family: "Kaushanscript";
+  src: url("base/fonts/Kaushanscript.otf");
   font-weight: normal;
   font-style: normal; }
 * {
@@ -92,7 +92,7 @@ h3 {
       transform: scale(1.4);
       transition: 1.2s; }
     .main-menu .menu1 h2 {
-      font-family: blackjack; }
+      font-family: "Blackjack"; }
   .main-menu .menu2 {
     color: #c77412;
     font-size: 20px;
@@ -107,7 +107,7 @@ h3 {
       color: transparent;
       font-size: 28px;
       padding-top: 20px;
-      font-family: alegrya; }
+      font-family: "Alegrya"; }
   .main-menu .menu3 {
     color: #339bfb;
     font-size: 20px;
@@ -122,7 +122,7 @@ h3 {
       color: transparent;
       font-size: 28px;
       padding-top: 20px;
-      font-family: Calligraffiti; }
+      font-family: "Calligraffiti"; }
   .main-menu .menu4 {
     color: #72bf56;
     font-size: 20px;
@@ -137,7 +137,7 @@ h3 {
       color: transparent;
       font-size: 28px;
       padding-top: 20px;
-      font-family: kaushanscript; }
+      font-family: "Kaushanscript"; }
 
 .soon {
   border-radius: 5px 5px 5px;
