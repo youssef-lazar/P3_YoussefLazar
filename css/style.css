@@ -28,7 +28,8 @@ a {
         text-decoration: none; }
 
 h1 {
-  padding: 25px; }
+  padding: 25px;
+  font-size: xxx-large; }
 
 h3 {
   margin-top: 15px; }
@@ -67,6 +68,13 @@ h3 {
       transition: 1.2s; }
     .main-menu .menu1 h2 {
       font-family: 'Shadows Into Light', cursive; }
+  .main-menu .fa-music {
+    background: linear-gradient(90deg, #f05961, #f6916a);
+    background-clip: border-box;
+    background-clip: text;
+    color: transparent;
+    font-size: 28px;
+    padding-top: 20px; }
   .main-menu .menu2 {
     color: #c77412;
     font-size: 20px;
@@ -144,6 +152,17 @@ span {
   50% {
     opacity: 0;
     transform: scale(0.2) translateY(10px); } }
+@keyframes wig {
+  0% {
+    transform: rotate(10deg); }
+  3% {
+    transform: rotate(-5deg); }
+  4% {
+    transform: rotate(-10deg); }
+  5% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } }
 .circle span:nth-child(2) {
   background-color: #57ffa0;
   animation-delay: 0.4s; }
@@ -167,5 +186,12 @@ span {
   color: #e6c54d;
   font-size: 19px;
   width: 90%; }
+
+.wiggle {
+  animation-name: wig;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal; }
 
 /*# sourceMappingURL=style.css.map */
