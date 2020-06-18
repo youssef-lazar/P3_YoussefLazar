@@ -1,47 +1,6 @@
 @import "utils/variables";
 @import "utils/mixins";
 
-@font-face {
-    font-family: "Blackjack";
-    src: url("sass/base/fonts/Blackjack.otf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "comic_relief";
-    src: url("base/fonts/ComicRelief-webfont.eot");
-    src: url("base/fonts/ComicRelief-webfont.eot?#iefix") format("embedded-opentype"),
-    url("base/fonts/ComicRelief-webfont.woff2") format("woff2"),
-    url("base/fonts/ComicRelief-webfont.woff") format("woff"),
-    url("base/fonts/ComicRelief-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Alegrya";
-    src: url("sass/base/fonts/Alegreya-Regular.otf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: "Calligraffiti";
-    src: url("sass/base/fonts/Calligraffiti.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Kaushanscript";
-    src: url("sass/base/fonts/Kaushanscript.otf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -66,15 +25,18 @@ main {
 
 a {
     @include link-color($color-secondary);
-    a:hover{
-         @include link-color($color-secondary);
-        a:visited{
-             @include link-color($color-secondary);
+
+    a:hover {
+        @include link-color($color-secondary);
+
+        a:visited {
+            @include link-color($color-secondary);
+
             a:active {
                 @include link-color($color-secondary);
-                }
             }
         }
+    }
 }
 
 h1 {
@@ -92,71 +54,87 @@ h3 {
 }
 
 
-.main-menu{
+.main-menu {
     width: 40%;
     height: 400px;
     margin-top: 70px;
-        &--un{
-            @include menu-box($color-m1)
+
+    &--un {
+        @include menu-box($color-m1)
+    }
+
+    &--deux {
+        @include menu-box($color-m2)
+    }
+
+    &--trois {
+        @include menu-box($color-m3)
+    }
+
+    &--quatre {
+        @include menu-box($color-m4)
+    }
+
+
+    .menu1 {
+        @include menu-txt($txt-m1);
+
+        &:hover {
+            @include zoom;
         }
 
-        &--deux {
-            @include menu-box($color-m2)
-        }
-        
-        &--trois {
-            @include menu-box($color-m3)
+        h2 {
+            font-family: 'Shadows Into Light',
+                cursive;
         }
 
-        &--quatre {
-            @include menu-box($color-m4)
+    }
+
+    .menu2 {
+        @include menu-txt($txt-m2);
+
+        &:hover {
+            @include zoom;
         }
 
+        h2 {
+            @include gradiant(#d8852e, #905bfd);
+            font-family: 'Alegreya',
+                serif;
+        }
 
-        .menu1 {
-            @include menu-txt($txt-m1);
-            &:hover{
-                 @include zoom;
-            }
-                h2 {
-                    font-family: "Blackjack";
-                }
+    }
+
+    .menu3 {
+        @include menu-txt($txt-m3);
+
+        &:hover {
+            @include zoom;
+        }
+
+        h2 {
+            @include gradiant(#0431df, #69b4fa);
+            font-family: 'Alex Brush',
+                cursive;
 
         }
-        .menu2 {
-            @include menu-txt($txt-m2);
-            &:hover{
-                @include zoom;
-            }
-                h2 {
-                    @include gradiant(#d8852e, #905bfd);
-                    font-family: "Alegrya";
-                }
 
-        }
-        .menu3 {
-            @include menu-txt($txt-m3);
-            &:hover{
-                @include zoom;
-            }
-                h2 {
-                    @include gradiant(#0431df, #69b4fa);
-                    font-family: "Calligraffiti";
-                    
-                }
+    }
 
-        }
-        .menu4 {
-            @include menu-txt($txt-m4);
-            &:hover{
-                @include zoom;
-            }
-                h2 {
-                    @include gradiant(#3e923a, #c4ff8a);
-                    font-family: "Kaushanscript";
-                }
+    .menu4 {
+        @include menu-txt($txt-m4);
 
+        &:hover {
+            @include zoom;
         }
+
+        h2 {
+            @include gradiant(#3e923a, #c4ff8a);
+            font-family: 'Kaushan Script',
+                cursive;
+        }
+
+    }
 
 }
 
@@ -190,7 +168,7 @@ span {
     animation-timing-function: ease-in-out;
 }
 
-@keyframes dots{
+@keyframes dots {
     50% {
         opacity: 0;
         transform: scale(0.2) translateY(10px);
@@ -225,4 +203,5 @@ span {
     justify-content: space-between;
     color: $color-secondary;
     font-size: 19px;
+    width: 90%;
 }
