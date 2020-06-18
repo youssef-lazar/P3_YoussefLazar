@@ -41,6 +41,7 @@ a {
 
 h1 {
     padding: 25px;
+    font-size: xxx-large;
 }
 
 
@@ -88,6 +89,11 @@ h3 {
                 cursive;
         }
 
+    }
+
+
+    .fa-music {
+        @include gradiant(#f05961, #f6916a);
     }
 
     .menu2 {
@@ -176,6 +182,29 @@ span {
 }
 
 
+@keyframes wig {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    3% {
+        transform: rotate(-5deg);
+    }
+
+    4% {
+        transform: rotate(-10deg);
+    }
+
+    5% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
 .circle span:nth-child(2) {
     background-color: #57ffa0;
     animation-delay: 0.4s;
@@ -205,3 +234,12 @@ span {
     font-size: 19px;
     width: 90%;
 }
+
+
+    .wiggle {
+        animation-name: wig;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: normal;
+    }
