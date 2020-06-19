@@ -60,86 +60,63 @@ h3 {
     height: 400px;
     margin-top: 70px;
 
+    &__content {
+        &:hover {
+            @include zoom;
+        }
+    }
+
     &--un {
-        @include menu-box($color-m1)
+        @include menu-box($color-m1);
+       .main-menu__content {
+            @include menu-txt($txt-m1);
+            h2 {
+                font-family: 'Shadows Into Light',
+                    cursive;
+            }
+        }
     }
 
     &--deux {
-        @include menu-box($color-m2)
+        @include menu-box($color-m2);
+        .main-menu__content {
+            @include menu-txt($txt-m2);
+            h2 {
+                @include gradiant(#d8852e, #905bfd);
+                font-family: 'Alegreya',
+                    serif;
+            }
+        }
     }
 
     &--trois {
-        @include menu-box($color-m3)
+        @include menu-box($color-m3);
+        .main-menu__content {
+            @include menu-txt($txt-m3);
+
+            h2 {
+                @include gradiant(#0431df, #69b4fa);
+                font-family: 'Alex Brush',
+                cursive;
+            }
+        }
     }
 
     &--quatre {
-        @include menu-box($color-m4)
-    }
+        @include menu-box($color-m4);
+        .main-menu__content {
+            @include menu-txt($txt-m4);
 
-
-    .menu1 {
-        @include menu-txt($txt-m1);
-
-        &:hover {
-            @include zoom;
-        }
-
-        h2 {
-            font-family: 'Shadows Into Light',
+            h2 {
+                @include gradiant(#3e923a, #c4ff8a);
+                font-family: 'Kaushan Script',
                 cursive;
+            }
         }
-
     }
-
 
     .fa-music {
         @include gradiant(#f05961, #f6916a);
-    }
-
-    .menu2 {
-        @include menu-txt($txt-m2);
-
-        &:hover {
-            @include zoom;
-        }
-
-        h2 {
-            @include gradiant(#d8852e, #905bfd);
-            font-family: 'Alegreya',
-                serif;
-        }
-
-    }
-
-    .menu3 {
-        @include menu-txt($txt-m3);
-
-        &:hover {
-            @include zoom;
-        }
-
-        h2 {
-            @include gradiant(#0431df, #69b4fa);
-            font-family: 'Alex Brush',
-                cursive;
-
-        }
-
-    }
-
-    .menu4 {
-        @include menu-txt($txt-m4);
-
-        &:hover {
-            @include zoom;
-        }
-
-        h2 {
-            @include gradiant(#3e923a, #c4ff8a);
-            font-family: 'Kaushan Script',
-                cursive;
-        }
-
     }
 
 }
@@ -152,6 +129,7 @@ h3 {
     box-shadow: 1px 1px 5px 1px black;
     color: $color-secondary;
     font-size: 20px;
+    font-weight: bold;
     margin-top: 60px;
     padding-top: 25px;
     width: 400px;
@@ -224,16 +202,10 @@ span {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    font-size: larger;
+    font-weight: bold;
 }
 
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    color: $color-secondary;
-    font-size: 19px;
-    width: 90%;
-}
 
 
 .wiggle {
