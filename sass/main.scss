@@ -68,8 +68,10 @@ h3 {
 
     &--un {
         @include menu-box($color-m1);
-       .main-menu__content {
+
+        .main-menu__content {
             @include menu-txt($txt-m1);
+
             h2 {
                 font-family: 'Shadows Into Light',
                     cursive;
@@ -79,8 +81,10 @@ h3 {
 
     &--deux {
         @include menu-box($color-m2);
+
         .main-menu__content {
             @include menu-txt($txt-m2);
+
             h2 {
                 @include gradiant(#d8852e, #905bfd);
                 font-family: 'Alegreya',
@@ -91,26 +95,28 @@ h3 {
 
     &--trois {
         @include menu-box($color-m3);
+
         .main-menu__content {
             @include menu-txt($txt-m3);
 
             h2 {
                 @include gradiant(#0431df, #69b4fa);
                 font-family: 'Alex Brush',
-                cursive;
+                    cursive;
             }
         }
     }
 
     &--quatre {
         @include menu-box($color-m4);
+
         .main-menu__content {
             @include menu-txt($txt-m4);
 
             h2 {
                 @include gradiant(#3e923a, #c4ff8a);
                 font-family: 'Kaushan Script',
-                cursive;
+                    cursive;
             }
         }
     }
@@ -214,4 +220,65 @@ span {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: normal;
+}
+
+
+
+.submenu {
+    @include bloc-menu($color-m1);
+
+    .fa-music {
+        @include gradiant(#f05961, #f6916a);
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 4em;
+        font-family: 'Shadows Into Light',
+            cursive;
+    }
+}
+
+.submenu-section {
+    width: 90%;
+    padding-bottom: 80px;
+}
+
+
+.trait {
+    width: 150px;
+    height: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+
+    p {
+        line-height: 2.5em;
+    }
+
+    h4 {
+        font-size: 35px;
+        background: linear-gradient(to top, #3c1218 0%, #3c1218 4px, transparent 5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 0.3s;
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+
+
+    .row-content {
+        &--1 {
+            font-weight: bold;
+            ;
+        }
+    }
+
 }
