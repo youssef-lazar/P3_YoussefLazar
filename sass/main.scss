@@ -225,23 +225,81 @@ span {
 
 
 .submenu {
-    @include bloc-menu($color-m1);
+    &--1 {
+        @include bloc-menu($color-m1);
 
-    .fa-music {
-        @include gradiant(#f05961, #f6916a);
-        font-size: 5em;
+        .fa-music {
+            @include gradiant(#f05961, #f6916a);
+            font-size: 5em;
+        }
+
+        h2 {
+            font-size: 4em;
+            font-family: 'Shadows Into Light',
+            cursive;
+            padding-bottom: 40px;
+        }
     }
 
-    h2 {
-        font-size: 4em;
-        font-family: 'Shadows Into Light',
+    &--2 {
+        @include bloc-menu($color-m2);
+
+        h2 {
+            @include gradiant(#d8852e, #905bfd);
+            font-size: 4em;
+            font-family: 'Alegreya',
             cursive;
+            padding-bottom: 40px;
+        }
+    }
+
+    &--3 {
+        @include bloc-menu($color-m3);
+
+        h2 {
+            @include gradiant(#0431df, #69b4fa);
+            font-size: 4em;
+            font-family: 'Alex Brush',
+            cursive;
+            padding-bottom: 40px;
+        }
+    }
+
+    &--4 {
+        @include bloc-menu($color-m4);
+
+        h2 {
+            @include gradiant(#3e923a, #c4ff8a);
+            font-size: 4em;
+            font-family: 'Kaushan Script',
+            cursive;
+            padding-bottom: 40px;
+        }
     }
 }
 
 .submenu-section {
     width: 90%;
     padding-bottom: 80px;
+
+    &--1 {
+        font-weight: bold;
+    }
+
+    &--2 {
+        font-family: 'Alegreya',
+            cursive;
+    }
+
+    &--3 {
+        font-family: 'Comic Neue',
+            cursive;
+    }
+
+    &--4 {
+        font-family: 'Comic Neue',
+            cursive;
+    }
 }
 
 
@@ -272,13 +330,4 @@ span {
             background-size: 100% 100%;
         }
     }
-
-
-    .row-content {
-        &--1 {
-            font-weight: bold;
-            ;
-        }
-    }
-
 }
