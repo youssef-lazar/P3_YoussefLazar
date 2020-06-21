@@ -275,6 +275,12 @@ span {
 .submenu-section {
   width: 90%;
   padding-bottom: 80px; }
+  .submenu-section.orange {
+    color: #c67412; }
+  .submenu-section.purple {
+    color: #a56799; }
+  .submenu-section.blue {
+    color: #6e4ccc; }
   .submenu-section--1 {
     font-weight: bold; }
   .submenu-section--2 {
@@ -293,15 +299,46 @@ span {
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-  margin: auto; }
+  margin: auto;
+  font-size: 20px; }
   .row p {
     line-height: 2.5em; }
   .row h4 {
-    font-size: 35px;
+    font-size: 40px;
     background: linear-gradient(to top, #3c1218 0%, #3c1218 4px, transparent 5px) no-repeat;
     background-size: 0 100%;
-    transition: background-size 0.3s; }
+    transition: background-size 0.5s; }
     .row h4:hover {
       background-size: 100% 100%; }
+  .row .gauche {
+    width: 170px;
+    height: 50px; }
+    .row .gauche--1 {
+      background-color: #660000;
+      clip-path: ellipse(45% 3% at 50% 50%); }
+    .row .gauche--2 {
+      background: linear-gradient(90deg, #d8852e, #905bfd);
+      clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0% 50%); }
+    .row .gauche--3 {
+      background: linear-gradient(to right, blue, skyblue);
+      clip-path: polygon(51% 49%, 100% 50%, 68% 54%, 13.97% 57%, 0px 50%); }
+    .row .gauche--4 {
+      background: linear-gradient(to right, #3e923a, #c4ff8a);
+      clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%); }
+  .row .droite {
+    width: 170px;
+    height: 50px; }
+    .row .droite--1 {
+      background-color: #660000;
+      clip-path: ellipse(45% 3% at 50% 50%); }
+    .row .droite--2 {
+      background: linear-gradient(90deg, #905bfd, #d8852e);
+      clip-path: polygon(30% 40%, 100% 50%, 30% 60%, 0% 50%); }
+    .row .droite--3 {
+      background: linear-gradient(to right, skyblue, blue);
+      clip-path: polygon(51% 49%, 100% 50%, 81.79% 58%, 35% 53%, 0px 50%); }
+    .row .droite--4 {
+      background: linear-gradient(to right, #c4ff8a, #3e923a);
+      clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%); }
 
 /*# sourceMappingURL=style.css.map */
