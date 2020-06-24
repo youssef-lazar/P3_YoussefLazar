@@ -230,14 +230,14 @@ span {
 
         .fa-music {
             @include gradiant(#f05961, #f6916a);
-            font-size: 5em;
+            font-size: 4em;
         }
 
         h2 {
-            font-size: 4em;
+            font-size: 3.5em;
             font-family: 'Shadows Into Light',
-            cursive;
-            padding-bottom: 40px;
+                cursive;
+            padding-bottom: 51px;
         }
     }
 
@@ -248,7 +248,7 @@ span {
             @include gradiant(#d8852e, #905bfd);
             font-size: 4em;
             font-family: 'Alegreya',
-            cursive;
+                cursive;
             padding-bottom: 40px;
         }
     }
@@ -260,7 +260,7 @@ span {
             @include gradiant(#0431df, #69b4fa);
             font-size: 4em;
             font-family: 'Alex Brush',
-            cursive;
+                cursive;
             padding-bottom: 40px;
         }
     }
@@ -272,7 +272,7 @@ span {
             @include gradiant(#3e923a, #c4ff8a);
             font-size: 4em;
             font-family: 'Kaushan Script',
-            cursive;
+                cursive;
             padding-bottom: 40px;
         }
     }
@@ -295,7 +295,8 @@ span {
     }
 
     &--1 {
-        font-weight: bold;
+        font-family: 'Alegreya',
+            cursive;
     }
 
     &--2 {
@@ -304,12 +305,12 @@ span {
     }
 
     &--3 {
-        font-family: 'Comic Neue',
+        font-family: 'Kalam',
             cursive;
     }
 
     &--4 {
-        font-family: 'Comic Neue',
+        font-family: 'Kalam',
             cursive;
     }
 }
@@ -333,17 +334,6 @@ span {
         line-height: 2.5em;
     }
 
-    h4 {
-        font-size: 40px;
-        background: linear-gradient(to top, #3c1218 0%, #3c1218 4px, transparent 5px) no-repeat;
-        background-size: 0 100%;
-        transition: background-size 0.5s;
-
-        &:hover {
-            background-size: 100% 100%;
-        }
-    }
-
     .gauche {
         width: 170px;
         height: 50px;
@@ -358,7 +348,7 @@ span {
             clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0% 50%);
         }
 
-        &--3{
+        &--3 {
             background: linear-gradient(to right, blue, skyblue);
             clip-path: polygon(51% 49%, 100% 50%, 68.00% 54.00%, 13.97% 57%, 0px 50%);
         }
@@ -393,5 +383,55 @@ span {
             clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
         }
     }
-    
+
+}
+
+.row-title {
+    padding-bottom: 20px;
+
+    h4 {
+        font-size: 30px;
+
+        &.h4--1 {
+            background: linear-gradient(to top, black 0%, grey 4px, transparent 5px) no-repeat;
+            background-size: 0 100%;
+            transition: background-size 0.5s ease-in-out;
+        }
+
+        &.h4--2 {
+            background: linear-gradient(to top, #d8852e 0%, #905bfd 4px, transparent 5px) no-repeat;
+            background-size: 0 100%;
+            transition: background-size 0.5s ease-in-out;
+        }
+
+        &.h4--3 {
+            background: linear-gradient(to top, blue 0%, skyblue 4px, transparent 5px) no-repeat;
+            background-size: 0 100%;
+            transition: background-size 0.5s ease-in-out;
+        }
+
+        &.h4--4 {
+            background: linear-gradient(to top, #3e923a 0%, #c4ff8a 4px, transparent 5px) no-repeat;
+            background-size: 0 100%;
+            transition: background-size 0.5s ease-in-out;
+        }
+
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.submenu-footer {
+    display: flex;
+    flex-direction: row;
+
+    i {
+        margin-right: 50px;
+    }
+
+    h2 {
+        font-size: 2em;
+        padding-top: 20px;
+    }
 }
