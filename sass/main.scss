@@ -325,9 +325,10 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     font-size: 20px;
+    text-align: start;
 
 
     p {
@@ -391,29 +392,24 @@ span {
 
     h4 {
         font-size: 30px;
+        transition: background-size 0.5s cubic-bezier(.55, .06, .68, .19);
+        background-repeat: no-repeat;
+        background-size: 0 100%;
 
         &.h4--1 {
-            background: linear-gradient(to top, black 0%, grey 4px, transparent 5px) no-repeat;
-            background-size: 0 100%;
-            transition: background-size 0.5s ease-in-out;
+            background-image: linear-gradient(to top, black 0%, grey 4px, transparent 5px);
         }
 
         &.h4--2 {
-            background: linear-gradient(to top, #d8852e 0%, #905bfd 4px, transparent 5px) no-repeat;
-            background-size: 0 100%;
-            transition: background-size 0.5s ease-in-out;
+            background-image: linear-gradient(to top, #d8852e 0%, #905bfd 4px, transparent 5px);
         }
 
         &.h4--3 {
-            background: linear-gradient(to top, blue 0%, skyblue 4px, transparent 5px) no-repeat;
-            background-size: 0 100%;
-            transition: background-size 0.5s ease-in-out;
+            background-image: linear-gradient(to top, blue 0%, skyblue 4px, transparent 5px);
         }
 
         &.h4--4 {
-            background: linear-gradient(to top, #3e923a 0%, #c4ff8a 4px, transparent 5px) no-repeat;
-            background-size: 0 100%;
-            transition: background-size 0.5s ease-in-out;
+            background-image: linear-gradient(to top, #3e923a 0%, #c4ff8a 4px, transparent 5px);
         }
 
         &:hover {
@@ -434,4 +430,84 @@ span {
         font-size: 2em;
         padding-top: 20px;
     }
+}
+
+/* Responsive moins de 785px  */
+
+@media all and (max-width: 785px) {
+    main {
+        width: 90%;
+    }
+
+    .submenu {
+        h2 {
+            font-size: 2.5em;
+        }
+    }
+
+    .row-title {
+        h4 {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .row {
+        font-size: 17px;
+        width: 95%;
+
+        p {
+            line-height: 2em;
+            margin: 15px;
+        }
+    }
+
+    .submenu-footer {
+        h2 {
+            font-size: 1.5em;
+            padding-top: 23px;
+        }
+    }
+
+    .footer {
+        padding: 15px;
+
+        p {
+            margin-left: -40px;
+            font-size: medium;
+        }
+    }
+
+    .row {
+        .gauche {
+            width: 100px;
+        }
+
+        .droite {
+            width: 100px;
+        }
+
+    }
+
+
+    .main-menu {
+        width: 90%;
+        margin-top: 50px;
+        height: auto;
+
+        .main-menu__content {
+            margin-top: 0px;
+            height: 200px;
+            padding-top: 70px;
+        }
+
+        .fa-music {
+            padding-top: 0px;
+        }
+    }
+
+
+
+
+
 }
