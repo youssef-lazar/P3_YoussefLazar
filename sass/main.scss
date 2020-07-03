@@ -323,12 +323,6 @@ span {
     }
 }
 
-
-.trait {
-    width: 150px;
-    height: 50px;
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -343,55 +337,16 @@ span {
         line-height: 2.5em;
     }
 
-    .gauche {
-        width: 170px;
-        height: 50px;
-
-        &--1 {
-            background-color: $txt-m1;
-            clip-path: ellipse(45% 3% at 50% 50%);
-        }
-
-        &--2 {
-            background: linear-gradient(90deg, #d8852e, #905bfd);
-            clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0% 50%);
-        }
-
-        &--3 {
-            background: linear-gradient(to right, blue, skyblue);
-            clip-path: polygon(51% 49%, 100% 50%, 68.00% 54.00%, 13.97% 57%, 0px 50%);
-        }
-
-        &--4 {
-            background: linear-gradient(to right, #3e923a, #c4ff8a);
-            clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
+    .trait {
+        max-width: 30%;
+        align-self: center;
+        
+        &.trait-reverse {
+        transform: rotateY(180deg);
         }
     }
 
-    .droite {
-        width: 170px;
-        height: 50px;
-
-        &--1 {
-            background-color: $txt-m1;
-            clip-path: ellipse(45% 3% at 50% 50%);
-        }
-
-        &--2 {
-            background: linear-gradient(90deg, #905bfd, #d8852e);
-            clip-path: polygon(30% 40%, 100% 50%, 30% 60%, 0% 50%);
-        }
-
-        &--3 {
-            background: linear-gradient(to right, skyblue, blue);
-            clip-path: polygon(51% 49%, 100% 50%, 81.79% 58%, 35.00% 53.00%, 0px 50%);
-        }
-
-        &--4 {
-            background: linear-gradient(to right, #c4ff8a, #3e923a);
-            clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
-        }
-    }
+    
 
 }
 
@@ -517,7 +472,7 @@ span {
 
 
     .main-menu {
-        width: 90%;
+        width: 100%;
         margin-top: 50px;
         height: auto;
 
