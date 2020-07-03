@@ -8,7 +8,6 @@
 
 main {
     padding-bottom: 150px;
-    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,7 +40,7 @@ a {
 
 h1 {
     padding: 25px;
-    font-size: xxx-large;
+    font-size: 60px;
 }
 
 
@@ -444,6 +443,9 @@ span {
 
 .mention {
     font-family: 'Alegreya';
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 
     h3 {
         margin-top: 20px;
@@ -463,6 +465,7 @@ span {
     }
 
     .submenu {
+        width: 100%;
         h2 {
             font-size: 2.5em;
         }
