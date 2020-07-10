@@ -1,0 +1,11 @@
+.footer {
+    background-color: $color-primary;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bold;
+}

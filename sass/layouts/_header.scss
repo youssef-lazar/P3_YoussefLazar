@@ -1,0 +1,8 @@
+.main-header {
+    background-color: $color-primary;
+
+    &__title {
+        color: $color-secondary;
+        text-align: center;
+    }
+}
