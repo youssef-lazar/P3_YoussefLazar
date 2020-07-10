@@ -1,58 +1,9 @@
 @import "utils/variables";
 @import "utils/mixins";
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    padding-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.main-header {
-    background-color: $color-primary;
-
-    &__title {
-        color: $color-secondary;
-        text-align: center;
-    }
-}
-
-a {
-    @include link-color($color-secondary);
-
-    a:hover {
-        @include link-color($color-secondary);
-
-        a:visited {
-            @include link-color($color-secondary);
-
-            a:active {
-                @include link-color($color-secondary);
-            }
-        }
-    }
-}
-
-h1 {
-    padding: 25px;
-    font-size: 60px;
-}
-
-
-h3 {
-    margin-top: 15px;
-}
-
-
-.container {
-    @include main-box;
-}
-
+@import "layouts/header";
+@import "layouts/footer";
+@import "components/comp";
+@import "base/basecode";
 
 .main-menu {
     width: 40%;
@@ -157,12 +108,7 @@ span {
     animation-timing-function: ease-in-out;
 }
 
-.mention {
-    @include menu-box($color-back);
-    margin-top: 30px;
-    text-align: center;
-    padding: 20px;
-}
+
 
 @keyframes dots {
     50% {
@@ -195,31 +141,6 @@ span {
         transform: translate3d(4px, 0, 0);
     }
 }
-
-
-.circle span:nth-child(2) {
-    background-color: #57ffa0;
-    animation-delay: 0.4s;
-}
-
-.circle span:nth-child(3) {
-    background-color: #ff8b57;
-    animation-delay: 0.8s;
-}
-
-
-.footer {
-    background-color: $color-primary;
-    padding: 25px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    font-size: larger;
-    font-weight: bold;
-}
-
 
 
 .wiggle {
@@ -394,6 +315,10 @@ span {
 
 
 .mention {
+    @include menu-box($color-back);
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
     font-family: 'Alegreya';
     width: 80%;
     margin-left: auto;

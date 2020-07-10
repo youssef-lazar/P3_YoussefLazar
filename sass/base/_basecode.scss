@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    @include link-color($color-secondary);
+
+    a:hover {
+        @include link-color($color-secondary);
+
+        a:visited {
+            @include link-color($color-secondary);
+
+            a:active {
+                @include link-color($color-secondary);
+            }
+        }
+    }
+}
+
+h1 {
+    padding: 25px;
+    font-size: 60px;
+}
+
+
+h3 {
+    margin-top: 15px;
+}
+
+
+.container {
+    @include main-box;
+}
